@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser
 
 from .manager import BaseManager
-from apps.common.models import BaseModel
+from common.models import BaseModel
 
 
 class User(BaseModel, AbstractBaseUser):
